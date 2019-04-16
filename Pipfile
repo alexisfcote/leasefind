@@ -15,9 +15,13 @@ PyInstaller = "*"
 Sphinx = "*"
 twine = "*"
 ipython = "*"
-black = "*"
+yapf = "*"
+
 
 [packages]
 click = "*"
 requests = "*"
 BeautifulSoup4 = "*"
+
+[requires]
+python_version = "3.7"
